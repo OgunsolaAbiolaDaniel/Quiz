@@ -1,0 +1,50 @@
+*,*::before
+*::after{
+    box-sizing: border-box;
+}
+body{
+    background-image:url(note.jpg);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size:28pt;
+    color: #4B565D;
+}
+#upper{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+button{
+    width: 200px;
+    padding:7px 20px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #4B565D;
+    color: #ffffff;
+    font-size: 14pt;
+}
+#display{
+    width: 100%;
+    font-size: 18pt;
+    line-height: 2.8;
+}
+.play{
+    width:70%;
+    display: flex;
+justify-content: start;
+align-items: center;
+flex-direction: column;
+
+}
+li{
+    list-style: none;
+}
+label{
+    font-size: 16pt;
+}
